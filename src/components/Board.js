@@ -6,6 +6,7 @@ const Board = ({ squares, onClick }) => (
     {squares.map((square, i) => (
       <Square key={i} value={square} onClick={() => onClick(i)} />
     ))}
+    <hr id="strike"/>
   </div>
 );
 
